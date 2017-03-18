@@ -1,0 +1,894 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Markdown语法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="asciidoc.html" />
+    
+    
+    <link rel="prev" href="../languages.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">入门</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于本文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup.html">
+            
+                <a href="../setup.html">
+            
+                    
+                    安装和设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../structure.html">
+            
+                <a href="../structure.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../pages.html">
+            
+                <a href="../pages.html">
+            
+                    
+                    菜单与页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../config.html">
+            
+                <a href="../config.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../lexicon.html">
+            
+                <a href="../lexicon.html">
+            
+                    
+                    词汇表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../languages.html">
+            
+                <a href="../languages.html">
+            
+                    
+                    多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6" data-path="markdown.html">
+            
+                <a href="markdown.html">
+            
+                    
+                    Markdown语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="asciidoc.html">
+            
+                <a href="asciidoc.html">
+            
+                    
+                    AsciiDoc语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../ebook.html">
+            
+                <a href="../ebook.html">
+            
+                    
+                    生成电子书和PDF
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">定制</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../templating/">
+            
+                <a href="../templating/">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../templating/conrefs.html">
+            
+                <a href="../templating/conrefs.html">
+            
+                    
+                    内容引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../templating/variables.html">
+            
+                <a href="../templating/variables.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../templating/builtin.html">
+            
+                <a href="../templating/builtin.html">
+            
+                    
+                    Builtin模板助手
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../plugins/">
+            
+                <a href="../plugins/">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../plugins/create.html">
+            
+                <a href="../plugins/create.html">
+            
+                    
+                    创建插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="../plugins/hooks.html">
+            
+                <a href="../plugins/hooks.html">
+            
+                    
+                    回调函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="../plugins/blocks.html">
+            
+                <a href="../plugins/blocks.html">
+            
+                    
+                    块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="../plugins/filters.html">
+            
+                <a href="../plugins/filters.html">
+            
+                    
+                    过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.5" data-path="../plugins/api.html">
+            
+                <a href="../plugins/api.html">
+            
+                    
+                    API＆Context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.6" data-path="../plugins/testing.html">
+            
+                <a href="../plugins/testing.html">
+            
+                    
+                    测试你的插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../themes/">
+            
+                <a href="../themes/">
+            
+                    
+                    主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">插件开发</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../api/">
+            
+                <a href="../api/">
+            
+                    
+                    插件简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../api/node.html">
+            
+                <a href="../api/node.html">
+            
+                    
+                    节点API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../api/connect.html">
+            
+                <a href="../api/connect.html">
+            
+                    
+                    连接到上下文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../api/components.html">
+            
+                <a href="../api/components.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../api/i18n.html">
+            
+                <a href="../api/i18n.html">
+            
+                    
+                    国际化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../api/navigation.html">
+            
+                <a href="../api/navigation.html">
+            
+                    
+                    导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../faq.html">
+            
+                <a href="../faq.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../examples.html">
+            
+                <a href="../examples.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <a target="_blank" href="https://github.com/GitbookIO/gitbook/blob/master/CHANGES.md">
+            
+                    
+                    发行说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Markdown语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="markdown&#x8BED;&#x6CD5;">Markdown&#x8BED;&#x6CD5;</h1>
+<p>Markdown&#x662F;GitBook&#x7684;&#x9ED8;&#x8BA4;&#x89E3;&#x6790;&#x5668;&#xFF0C;&#x672C;&#x6587;&#x6863;&#x57FA;&#x672C;&#x4E0A;&#x90FD;&#x662F;Markdown&#x8BED;&#x6CD5;&#x7F16;&#x5199;&#x7684;&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x9009;&#x62E9;<a href="asciidoc.html">AsciiDoc&#x8BED;&#x6CD5;</a>&#x6765;&#x7F16;&#x5199;&#x6587;&#x6863;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x662F;Markdown&#x8BED;&#x6CD5;&#x7684;&#x6982;&#x8FF0;&#x3002;</p>
+<h3 id="headings">&#x6807;&#x9898; </h3>
+<p>&#x5728;&#x6587;&#x672C;&#x4E4B;&#x524D;&#x6DFB;&#x52A0;&#x4E00;&#x5230;&#x516D;&#x4E2A;<code>&#xFF03;</code>&#x7B26;&#x53F7;&#x5C31;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6807;&#x9898;&#x3002;&#x60A8;&#x4F7F;&#x7528;&#x7684;&#xFF03;&#x53F7;&#x5C06;&#x51B3;&#x5B9A;&#x6807;&#x9898;&#x7684;&#x5927;&#x5C0F;&#x3002;</p>
+<h1 id="&#x8FD9;&#x662F;1&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;1&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h1>
+<h2 id="&#x8FD9;&#x662F;2&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;2&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h2>
+<h3 id="&#x8FD9;&#x662F;3&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;3&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h3>
+<h4 id="&#x8FD9;&#x662F;4&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;4&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h4>
+<h5 id="&#x8FD9;&#x662F;5&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;5&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h5>
+<h6 id="&#x8FD9;&#x662F;6&#x4E2A;&#x53F7;&#x7684;&#x6807;&#x9898;">&#x8FD9;&#x662F;6&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</h6>
+<pre><code class="lang-markdown"><span class="hljs-section"># &#x8FD9;&#x662F;1&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+<span class="hljs-section">## &#x8FD9;&#x662F;2&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+<span class="hljs-section">### &#x8FD9;&#x662F;3&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+<span class="hljs-section">#### &#x8FD9;&#x662F;4&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+<span class="hljs-section">##### &#x8FD9;&#x662F;5&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+<span class="hljs-section">###### &#x8FD9;&#x662F;6&#x4E2A;#&#x53F7;&#x7684;&#x6807;&#x9898;</span>
+</code></pre>
+<p>GitBook&#x652F;&#x6301;&#x4E00;&#x79CD;&#x663E;&#x5F0F;&#x65B9;&#x5F0F;&#x8BBE;&#x7F6E;&#x5934;&#x90E8;ID&#x3002;&#x5927;&#x62EC;&#x53F7;&#x4E2D;&#x4F7F;&#x7528;<code>#</code>&#x53F7;&#x6765;&#x8BBE;&#x7F6E;ID&#x503C;(&#x5927;&#x62EC;&#x53F7;&#x524D;&#x5FC5;&#x987B;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;)&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-markdown"><span class="hljs-section">Hello {#id}
+-----</span>
+
+<span class="hljs-section"># Hello {#id}</span>
+
+<span class="hljs-section"># Hello # {#id}</span>
+</code></pre>
+<h3 id="paragraphs">&#x6BB5;&#x843D;&#x548C;&#x6362;&#x884C;&#x7B26; </h3>
+<p>&#x6BB5;&#x843D;&#x662F;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x8FDE;&#x7EED;&#x7684;&#x6587;&#x672C;&#x884C;&#xFF0C;&#x7531;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7A7A;&#x767D;&#x884C;&#x5206;&#x9694;&#x3002;</p>
+<pre><code class="lang-markdown">&#x8FD9;&#x91CC;&#x662F;&#x6211;&#x4EEC;&#x5F00;&#x59CB;&#x7684;&#x4E00;&#x6761;&#x7EBF;&#x3002;
+
+&#x6B64;&#x884C;&#x4E0E;&#x4E0A;&#x9762;&#x7684;&#x4E00;&#x884C;&#x901A;&#x8FC7;&#x4E24;&#x4E2A;&#x6362;&#x884C;&#x7B26;&#x5206;&#x9694;&#xFF0C;&#x56E0;&#x6B64;&#x5B83;&#x5C06;&#x662F;&#x4E00;&#x4E2A; <span class="hljs-emphasis">*&#x5355;&#x72EC;&#x7684;&#x6BB5;&#x843D;*</span>&#x3002;
+</code></pre>
+<h3 id="emphasis">&#x5F3A;&#x8C03; </h3>
+<p><em>&#x6B64;&#x6587;&#x672C;&#x5C06;&#x4E3A;&#x659C;&#x4F53;</em>
+<em>&#x8FD9;&#x4E5F;&#x5C06;&#x662F;italic</em></p>
+<p><strong>&#x6B64;&#x6587;&#x672C;&#x5C06;&#x662F;&#x7C97;&#x4F53;</strong>
+<strong>&#x8FD9;&#x4E5F;&#x5C06;&#x662F;bold</strong></p>
+<p><del>&#x8FD9;&#x4E2A;&#x6587;&#x5B57;&#x4F1A;&#x88AB;&#x5212;&#x6389;</del></p>
+<p><em>You <strong>&#x53EF;&#x4EE5;</strong>&#x7EC4;&#x5408;them</em></p>
+<pre><code class="lang-markdown"><span class="hljs-emphasis">*&#x6B64;&#x6587;&#x672C;&#x5C06;&#x4E3A;&#x659C;&#x4F53;*</span>
+<span class="hljs-emphasis">_&#x8FD9;&#x4E5F;&#x5C06;&#x662F;italic_</span>
+
+<span class="hljs-strong">**&#x6B64;&#x6587;&#x672C;&#x5C06;&#x662F;&#x7C97;&#x4F53;**</span>
+<span class="hljs-strong">__&#x8FD9;&#x4E5F;&#x5C06;&#x662F;bold__</span>
+
+~~&#x8FD9;&#x4E2A;&#x6587;&#x5B57;&#x4F1A;&#x88AB;&#x5212;&#x6389;~~
+
+<span class="hljs-emphasis">_You **&#x53EF;&#x4EE5;**&#x7EC4;&#x5408;them_</span>
+</code></pre>
+<h3 id="lists">&#x5217;&#x8868; </h3>
+<p>Markdown&#x652F;&#x6301;&#x6709;&#x5E8F;(&#x7F16;&#x53F7;)&#x548C;&#x65E0;&#x5E8F;(&#x9879;&#x76EE;&#x7B26;&#x53F7;)&#x5217;&#x8868;&#x3002;</p>
+<h5 id="&#x65E0;&#x5E8F;">&#x65E0;&#x5E8F;</h5>
+<p>&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x4F7F;&#x7528;&#x661F;&#x53F7;&#xFF0C;&#x52A0;&#x53F7;&#x548C;&#x8FDE;&#x5B57;&#x7B26;(&#x53EF;&#x4E92;&#x6362;)&#x4F5C;&#x4E3A;&#x5217;&#x8868;&#x6807;&#x8BB0;&#xFF1A;</p>
+<ul>
+<li>&#x9879;&#x76EE;1</li>
+<li>&#x9879;&#x76EE;2<ul>
+<li>&#x9879;&#x76EE;2 a</li>
+<li>&#x9879;&#x76EE;2 b</li>
+</ul>
+</li>
+</ul>
+<pre><code class="lang-markdown"><span class="hljs-bullet">* </span>&#x9879;&#x76EE;1
+<span class="hljs-bullet">* </span>&#x9879;&#x76EE;2
+  * &#x9879;&#x76EE;2a
+  * &#x9879;&#x76EE;2b
+</code></pre>
+<h5 id="&#x6709;&#x5E8F;">&#x6709;&#x5E8F;</h5>
+<p>&#x6709;&#x5E8F;&#x5217;&#x8868;&#x4F7F;&#x7528;&#x6570;&#x5B57;&#x540E;&#x8DDF;&#x53E5;&#x70B9;&#xFF1A;</p>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3<ul>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ul>
+</li>
+</ol>
+<pre><code class="lang-markdown"><span class="hljs-bullet">1. </span>Item 1
+<span class="hljs-bullet">2. </span>Item 2
+<span class="hljs-bullet">3. </span>Item 3
+   * Item 3a
+   * Item 3b
+</code></pre>
+<h3 id="links">&#x94FE;&#x63A5; </h3>
+<p>Markdown&#x652F;&#x6301;&#x4E24;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x94FE;&#x63A5;&#xFF1A;&#x5185;&#x8054;&#x548C;&#x5F15;&#x7528;&#x3002;</p>
+<p>&#x4F7F;&#x7528;&#x65B9;&#x62EC;&#x53F7;&#x5305;&#x56F4;&#x6587;&#x672C;&#x5E76;&#x4F7F;&#x7528;&#x62EC;&#x53F7;&#x62EC;&#x4F4F;&#x94FE;&#x63A5;&#x7F51;&#x5740;&#x6765;&#x521B;&#x5EFA;&#x7B80;&#x5355;&#x7684;&#x94FE;&#x63A5;&#xFF1A;</p>
+<p>&#x8FD9;&#x662F;<a href="http://www.gibook.site/" title="&#x6807;&#x9898;" target="_blank">&#x5E26;&#x6807;&#x9898;&#x7684;&#x94FE;&#x63A5;&#xFF08;&#x9F20;&#x6807;&#x505C;&#x7559;&#x540E;&#x663E;&#x793A;&#x6807;&#x9898;&#xFF09;</a>&#x4E0E;&#x6807;&#x9898;&#x7684;&#x5185;&#x8054;&#x94FE;&#x63A5;&#x3002;</p>
+<p><a href="http://www.gibook.site/" target="_blank">&#x94FE;&#x63A5;</a>&#x6CA1;&#x6709;&#x6807;&#x9898;&#x5C5E;&#x6027;&#x3002;</p>
+<pre><code class="lang-markdown">&#x8FD9;&#x662F;[<span class="hljs-string">&#x5E26;&#x6807;&#x9898;&#x7684;&#x94FE;&#x63A5;&#xFF08;&#x9F20;&#x6807;&#x505C;&#x7559;&#x540E;&#x663E;&#x793A;&#x6807;&#x9898;&#xFF09;</span>](<span class="hljs-link">http://www.gibook.site/ &quot;&#x6807;&#x9898;&quot;</span>)&#x4E0E;&#x6807;&#x9898;&#x7684;&#x5185;&#x8054;&#x94FE;&#x63A5;&#x3002;
+
+[<span class="hljs-string">&#x94FE;&#x63A5;</span>](<span class="hljs-link">http://www.gibook.site/</span>)&#x6CA1;&#x6709;&#x6807;&#x9898;&#x5C5E;&#x6027;&#x3002;
+</code></pre>
+<p>&#x94FE;&#x63A5;&#x53EF;&#x4EE5;&#x6307;&#x5411;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x3001;&#x9875;&#x9762;&#x5B9A;&#x4F4D;&#x6216;&#x7EDD;&#x5BF9;&#x7F51;&#x5740;&#x3002;</p>
+<h5 id="&#x5176;&#x4ED6;&#x65B9;&#x5F0F;">&#x5176;&#x4ED6;&#x65B9;&#x5F0F;</h5>
+<p>&#x8FD8;&#x6709;&#x53E6;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#x6765;&#x521B;&#x5EFA;&#x94FE;&#x63A5;&#x3002; &#x6807;&#x9898;&#x4F7F;&#x7528;&#x5F15;&#x7528;&#x540D;&#x79F0;&#x5B9A;&#x4E49;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x65B9;&#x62EC;&#x53F7;&#x4E2D;&#x4F7F;&#x7528;&#x6B64;&#x5F15;&#x7528;&#x540D;&#x79F0;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x94FE;&#x63A5;URL&#xFF1A;</p>
+<p>&#x8FD9;&#x662F;<a href="http://www.gibook.site/" title="&#x53EF;&#x9009;&#x6807;&#x9898;&#x8FD9;&#x91CC;" target="_blank">&#x4E00;&#x4E2A;&#x793A;&#x4F8B;</a>&#x53C2;&#x8003;&#x6837;&#x5F0F;&#x94FE;&#x63A5;&#x3002;</p>
+<pre><code class="lang-markdown">&#x8FD9;&#x662F;[<span class="hljs-string">&#x4E00;&#x4E2A;&#x793A;&#x4F8B;</span>][<span class="hljs-symbol">id</span>]&#x53C2;&#x8003;&#x6837;&#x5F0F;&#x94FE;&#x63A5;&#x3002;
+</code></pre>
+<p>&#x7136;&#x540E;&#xFF0C;&#x5728;&#x6587;&#x6863;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x4F4D;&#x7F6E;&#xFF08;&#x4E00;&#x822C;&#x653E;&#x5728;&#x6587;&#x4EF6;&#x7ED3;&#x5C3E;&#xFF09;&#xFF0C;&#x5B9A;&#x4E49;&#x60A8;&#x7684;&#x94FE;&#x63A5;&#x6807;&#x7B7E;&#xFF1A;</p>
+<pre><code class="lang-markdown">[<span class="hljs-symbol">id</span><span class="hljs-link">]:http://www.gibook.site/ &quot;&#x53EF;&#x9009;&#x6807;&#x9898;&#x8FD9;&#x91CC;&quot;</span>
+</code></pre>
+<p>&#x8FD9;&#x6837;&#xFF0C;&#x6240;&#x6709;&#x7528;<code>[&#x94FE;&#x63A5;&#x6807;&#x9898;][id]</code>&#x7684;&#x94FE;&#x63A5;&#x90FD;&#x4F1A;&#x5F15;&#x7528;<code>[id]:http://www.gibook.site/ &quot;&#x53EF;&#x9009;&#x6807;&#x9898;&#x8FD9;&#x91CC;&quot;</code>&#x8FD9;&#x4E2A;&#x5730;&#x5740;&#xFF0C;&#x4E00;&#x822C;&#x6211;&#x4EEC;&#x5C06;&#x3002;</p>
+<h3 id="images">&#x56FE;&#x7247; </h3>
+<p>&#x56FE;&#x50CF;&#x4E0E;&#x94FE;&#x63A5;&#x521B;&#x5EFA;&#x7684;&#x65B9;&#x5F0F;&#x5F88;&#x7C7B;&#x4F3C;&#xFF1A;&#x53EA;&#x9700;&#x5728;&#x65B9;&#x62EC;&#x53F7;&#x524D;&#x4F7F;&#x7528;&#x611F;&#x53F9;&#x53F7;&#x5373;&#x53EF;&#xFF1A;</p>
+<p>&#x56FE;&#x7247;:<img src="../images/logo_200.png" alt="&#x8FD9;&#x662F;&#x56FE;&#x7247;"></p>
+<pre><code class="lang-markdown">&#x56FE;&#x7247;:![<span class="hljs-string">&#x8FD9;&#x662F;&#x56FE;&#x7247;</span>](<span class="hljs-link">../images/logo_200.png</span>)
+</code></pre>
+<h3 id="blockquotes">&#x5F15;&#x7528;&#x5757; </h3>
+<p>&#x4F7F;&#x7528; <code>&gt;</code> &#x6807;&#x8BB0;&#x7B26;&#x540E;&#x8DDF;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;&#x5F00;&#x59CB;&#xFF1A;</p>
+<p>Kanye West&#x8BF4;&#xFF1A;</p>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x751F;&#x6D3B;&#x5728;&#x672A;&#x6765;
+&#x73B0;&#x5728;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x8FC7;&#x53BB;&#x3002;</p>
+</blockquote>
+<pre><code class="lang-markdown">Kanye West&#x8BF4;&#xFF1A;
+
+<span class="hljs-quote">&gt; &#x6211;&#x4EEC;&#x751F;&#x6D3B;&#x5728;&#x672A;&#x6765;</span>
+<span class="hljs-quote">&gt; &#x73B0;&#x5728;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x8FC7;&#x53BB;&#x3002;</span>
+</code></pre>
+<h3 id="tables">&#x8868;&#x683C; </h3>
+<p>&#x7528;&#x8FDE;&#x5B57;&#x7B26;<code>-</code>(&#x7B2C;&#x4E00;&#x884C;)&#x5206;&#x9694;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x7BA1;&#x9053;&#x7B26;<code>|</code>&#x5206;&#x9694;&#x6BCF;&#x4E2A;&#x5217;&#x6765;&#x521B;&#x5EFA;&#x8868;&#x683C;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C;&#x4E00;&#x6807;&#x9898;</th>
+<th>&#x7B2C;&#x4E8C;&#x6807;&#x9898;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5185;&#x5BB9;&#x5355;&#x5143;</td>
+<td>&#x5185;&#x5BB9;&#x5355;&#x5143;</td>
+</tr>
+<tr>
+<td>&#x5185;&#x5BB9;&#x5355;&#x5143;</td>
+<td>&#x5185;&#x5BB9;&#x5355;&#x5143;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-markdown">|&#x7B2C;&#x4E00;&#x6807;&#x9898;|&#x7B2C;&#x4E8C;&#x6807;&#x9898;|
+| ----- | ----- |
+|&#x5185;&#x5BB9;&#x5355;&#x5143;|&#x5185;&#x5BB9;&#x5355;&#x5143;|
+|&#x5185;&#x5BB9;&#x5355;&#x5143;|&#x5185;&#x5BB9;&#x5355;&#x5143;|
+</code></pre>
+<p>&#x6807;&#x9898;&#x884C;&#x7684;&#x6BCF;&#x4E00;&#x5217;&#x4E2D;&#x81F3;&#x5C11;&#x5FC5;&#x987B;&#x6709;&#x4E09;&#x4E2A;&#x8FDE;&#x5B57;&#x7B26;&#x3002;</p>
+<h3 id="code">&#x4EE3;&#x7801; </h3>
+<p>Markdown&#x652F;&#x6301;&#x4E24;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x4EE3;&#x7801;&#x5757;&#x6837;&#x5F0F;&#x3002;
+&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#x662F;&#x7F29;&#x8FDB;&#x56DB;&#x4E2A;&#x7A7A;&#x683C;&#x6216;&#x4E00;&#x4E2A;<code>tab</code>&#x7684;&#x884C;&#xFF0C;&#x800C;&#x53E6;&#x4E00;&#x4E2A;&#x79CD;&#x5E26;&#x5C0F;&#x5199;&#x6CE2;&#x6D6A;&#x5B57;&#x7B26;&#x4F5C;&#x4E3A;&#x5206;&#x9694;&#x7B26;&#x7684;&#x884C;&#xFF1A;</p>
+<pre><code>```markdown
+&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x5757;&#x3002;
+
+    &#x7EE7;&#x7EED;&#x8FD9;&#x91CC;&#x3002;
+
+```
+</code></pre><h5 id="&#x53D7;&#x9632;&#x62A4;&#x7684;&#x4EE3;&#x7801;&#x5757;">&#x53D7;&#x9632;&#x62A4;&#x7684;&#x4EE3;&#x7801;&#x5757;</h5>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x4EE3;&#x7801;&#x5757;&#x4E4B;&#x524D;&#x548C;&#x4E4B;&#x540E;&#x653E;&#x7F6E;&#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;<code>``` </code>&#x6765;&#x521B;&#x5EFA;&#x56F4;&#x8D77;&#x6765;&#x7684;&#x4EE3;&#x7801;&#x5757;&#x3002;
+&#x6211;&#x4EEC;&#x5EFA;&#x8BAE;&#x5728;&#x4EE3;&#x7801;&#x5757;&#x4E4B;&#x524D;&#x548C;&#x4E4B;&#x540E;&#x653E;&#x7F6E;&#x7A7A;&#x884C;&#xFF0C;&#x4EE5;&#x4F7F;&#x539F;&#x59CB;&#x683C;&#x5F0F;&#x5316;&#x66F4;&#x5BB9;&#x6613;&#x9605;&#x8BFB;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">test</span>(<span class="hljs-params"></span>)</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;&#x6CE8;&#x610F;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x4E4B;&#x524D;&#x7684;&#x7A7A;&#x884C;&#xFF1F;&quot;</span>)
+}
+</code></pre>
+<pre><code>    ```javascript
+    function test(){
+          console.log(&quot;&#x6CE8;&#x610F;&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x4E4B;&#x524D;&#x7684;&#x7A7A;&#x884C;&#xFF1F;&quot;)
+    }
+    ```
+</code></pre><h5 id="&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;">&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;</h5>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x53EF;&#x9009;&#x7684;&#x8BED;&#x8A00;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x4EE5;&#x5728;&#x53D7;&#x4FDD;&#x62A4;&#x7684;&#x4EE3;&#x7801;&#x5757;&#x4E2D;&#x542F;&#x7528;&#x8BED;&#x6CD5;&#x7A81;&#x51FA;&#x663E;&#x793A;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x4EE5;&#x8BED;&#x6CD5;&#x9AD8;&#x4EAE;Ruby&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-ruby"><span class="hljs-keyword">require</span> <span class="hljs-string">&apos;redcarpet&apos;</span>
+markdown = Redcarpet.new(<span class="hljs-string">&quot;Hello World!&quot;</span>)
+puts markdown.to_html
+</code></pre>
+<pre><code>```ruby
+require &apos;redcarpet&apos;
+markdown = Redcarpet.new(&quot;Hello World!&quot;)
+puts markdown.to_html
+```
+</code></pre><h5 id="&#x5185;&#x8054;&#x4EE3;&#x7801;">&#x5185;&#x8054;&#x4EE3;&#x7801;</h5>
+<p>&#x6587;&#x672C;&#x77ED;&#x8BED;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7528;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x56F4;&#x5B83;&#x4EEC;&#x6765;&#x6807;&#x8BB0;&#x4E3A;&#x4EE3;&#x7801;, &#x4E0B;&#x9762;&#x7684;<code>gitbook</code>&#x548C;<code>text</code>&#x5C31;&#x662F;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code> &#x4F7F;&#x7528;`gitbook`&#x5728;markdown&#x4E2D;&#x8F6C;&#x6362;`text`
+ &#x8BED;&#x6CD5;&#x5230;HTML&#x3002;
+</code></pre><h3 id="footnotes">&#x811A;&#x6CE8; </h3>
+<p>GitBook&#x652F;&#x6301;&#x7B80;&#x5355;&#x7684;&#x811A;&#x6CE8;&#x8BED;&#x6CD5;&#x3002; 
+&#x811A;&#x6CE8;&#x662F;&#x5BF9;&#x5F53;&#x524D;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x6709;&#x6548;&#x3002;</p>
+<p>&#x811A;&#x6CE8;&#x53C2;&#x8003;&#x524D;&#x7684;&#x6587;&#x672C;&#x3002;<sup><a href="#fn_a2" id="reffn_a2">a2</a></sup></p>
+<pre><code class="lang-markdown">&#x811A;&#x6CE8;&#x53C2;&#x8003;&#x524D;&#x7684;&#x6587;&#x672C;&#x3002;[^2]
+
+[<span class="hljs-symbol">^2</span><span class="hljs-link">]:&#x8BC4;&#x8BBA;&#x8981;&#x5305;&#x62EC;&#x5728;&#x811A;&#x6CE8;&#x4E2D;&#x3002;</span>
+</code></pre>
+<h3 id="html">HTML </h3>
+<p>GitBook&#x652F;&#x6301;&#x5728;&#x60A8;&#x7684;&#x6587;&#x672C;&#x4E2D;&#x4F7F;&#x7528;&#x539F;&#x59CB;HTML&#xFF0C;&#x4E0D;&#x5904;&#x7406;HTML&#x4E2D;&#x7684;Markdown&#x8BED;&#x6CD5;&#xFF1A;</p>
+<div>
+Markdown&#x8FD9;&#x91CC;&#x4E0D;&#x4F1A;**&#x89E3;&#x6790;**
+</div>
+
+<pre><code>&lt;div&gt;
+Markdown&#x8FD9;&#x91CC;&#x4E0D;&#x4F1A;**&#x89E3;&#x6790;**
+&lt;/div&gt;
+</code></pre><h3 id="dividingLine">&#x5206;&#x9694;&#x7EBF; </h3>
+<p>&#x4F7F;&#x7528;&#x4E09;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x661F;&#x53F7;&#x3001;&#x4E2D;&#x5212;&#x7EBF;&#x3001;&#x4E0B;&#x5212;&#x7EBF;&#x521B;&#x5EFA;&#x5206;&#x9694;&#x7EBF;&#xFF1A;</p>
+<hr>
+<hr>
+<hr>
+<pre><code class="lang-markdown">&#x4E09;&#x4E2A;&#x6216;&#x66F4;&#x591A;...
+
+--- ---
+
+&#x4E2D;&#x5212;&#x7EBF;
+
+<span class="hljs-emphasis">***</span>
+
+&#x661F;&#x53F7;
+
+<span class="hljs-emphasis">___</span>
+
+&#x4E0B;&#x5212;&#x7EBF;
+</code></pre>
+<h3 id="&#x5FFD;&#x7565;markdown&#x683C;&#x5F0F;">&#x5FFD;&#x7565;Markdown&#x683C;&#x5F0F;</h3>
+<p>&#x5982;&#x679C;&#x9700;&#x8981;&#x5FFD;&#x7565;Markdown&#x683C;&#x5F0F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8F6C;&#x4E49;Markdown&#x7684;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5728;Markdown&#x5173;&#x952E;&#x5B57;&#x524D;&#x4F7F;&#x7528;&#x53CD;&#x659C;&#x6760; <code>\</code> &#x5373;&#x53EF;&#x3002;</p>
+<pre><code>Let&apos;s rename \*our-new-project\* to \*our-old-project\*.
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../languages.html" class="navigation navigation-prev " aria-label="Previous page: 多语言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="asciidoc.html" class="navigation navigation-next " aria-label="Next page: AsciiDoc语法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Markdown语法","level":"2.6","depth":1,"next":{"title":"AsciiDoc语法","level":"2.7","depth":1,"path":"syntax/asciidoc.md","ref":"syntax/asciidoc.md","articles":[]},"previous":{"title":"多语言","level":"2.5","depth":1,"path":"languages.md","ref":"languages.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"syntax/markdown.md","mtime":"2017-03-14T14:01:56.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-17T12:22:28.617Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

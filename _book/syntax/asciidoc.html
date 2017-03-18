@@ -1,0 +1,718 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>AsciiDoc语法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ebook.html" />
+    
+    
+    <link rel="prev" href="markdown.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">入门</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于本文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup.html">
+            
+                <a href="../setup.html">
+            
+                    
+                    安装和设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../structure.html">
+            
+                <a href="../structure.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../pages.html">
+            
+                <a href="../pages.html">
+            
+                    
+                    菜单与页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../config.html">
+            
+                <a href="../config.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../lexicon.html">
+            
+                <a href="../lexicon.html">
+            
+                    
+                    词汇表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../languages.html">
+            
+                <a href="../languages.html">
+            
+                    
+                    多语言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="markdown.html">
+            
+                <a href="markdown.html">
+            
+                    
+                    Markdown语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.7" data-path="asciidoc.html">
+            
+                <a href="asciidoc.html">
+            
+                    
+                    AsciiDoc语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../ebook.html">
+            
+                <a href="../ebook.html">
+            
+                    
+                    生成电子书和PDF
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">定制</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../templating/">
+            
+                <a href="../templating/">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../templating/conrefs.html">
+            
+                <a href="../templating/conrefs.html">
+            
+                    
+                    内容引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../templating/variables.html">
+            
+                <a href="../templating/variables.html">
+            
+                    
+                    变量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../templating/builtin.html">
+            
+                <a href="../templating/builtin.html">
+            
+                    
+                    Builtin模板助手
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../plugins/">
+            
+                <a href="../plugins/">
+            
+                    
+                    插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../plugins/create.html">
+            
+                <a href="../plugins/create.html">
+            
+                    
+                    创建插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="../plugins/hooks.html">
+            
+                <a href="../plugins/hooks.html">
+            
+                    
+                    回调函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="../plugins/blocks.html">
+            
+                <a href="../plugins/blocks.html">
+            
+                    
+                    块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="../plugins/filters.html">
+            
+                <a href="../plugins/filters.html">
+            
+                    
+                    过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.5" data-path="../plugins/api.html">
+            
+                <a href="../plugins/api.html">
+            
+                    
+                    API＆Context
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.6" data-path="../plugins/testing.html">
+            
+                <a href="../plugins/testing.html">
+            
+                    
+                    测试你的插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../themes/">
+            
+                <a href="../themes/">
+            
+                    
+                    主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">插件开发</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../api/">
+            
+                <a href="../api/">
+            
+                    
+                    插件简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../api/node.html">
+            
+                <a href="../api/node.html">
+            
+                    
+                    节点API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../api/connect.html">
+            
+                <a href="../api/connect.html">
+            
+                    
+                    连接到上下文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../api/components.html">
+            
+                <a href="../api/components.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../api/i18n.html">
+            
+                <a href="../api/i18n.html">
+            
+                    
+                    国际化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../api/navigation.html">
+            
+                <a href="../api/navigation.html">
+            
+                    
+                    导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../faq.html">
+            
+                <a href="../faq.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../examples.html">
+            
+                <a href="../examples.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <a target="_blank" href="https://github.com/GitbookIO/gitbook/blob/master/CHANGES.md">
+            
+                    
+                    发行说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >AsciiDoc语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="asciidoc">AsciiDoc</h1>
+<p>&#x4ECE;<code>2.0.0</code>&#x7248;&#x672C;&#x5F00;&#x59CB;&#xFF0C;GitBook&#x63A5;&#x53D7;AsciiDoc&#x8BED;&#x6CD5;&#x6587;&#x4EF6;&#x4F5C;&#x4E3A;&#x8F93;&#x5165;&#x683C;&#x5F0F;&#x3002;</p>
+<p>&#x6709;&#x5173;&#x683C;&#x5F0F;&#x7684;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x53C2;&#x9605;<a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/" target="_blank">AsciiDoc&#x8BED;&#x6CD5;&#x5FEB;&#x901F;&#x53C2;&#x8003;</a>&#x3002;</p>
+<p>&#x8DDF;markdown&#x4E00;&#x6837;&#xFF0C;GitBook&#x53EF;&#x4EE5;&#x4ECE;&#x4E0B;&#x7684;&#x9762;&#x6587;&#x4EF6;&#x6765;&#x63D0;&#x53D6;&#x7ED3;&#x6784;&#xFF1A;README.adoc&#xFF0C;SUMMARY.adoc&#xFF0C;LANGS.adoc&#x548C;GLOSSARY.adoc&#x3002;</p>
+<h3 id="readmeadoc">README.adoc</h3>
+<p>&#x8FD9;&#x662F;&#x4F60;&#x7684;&#x6587;&#x6863;&#x6216;&#x8005;&#x4E66;&#x7C4D;&#x7684;&#x4E3B;&#x8981;&#x5165;&#x53E3;&#xFF1A;&#x6B64;&#x6587;&#x4EF6;&#x662F; <strong>&#x5FC5;&#x586B;</strong>&#x3002;</p>
+<h3 id="summaryadoc">SUMMARY.adoc</h3>
+<p>&#x201C;SUMMARY.adoc&#x201D;&#x662F;&#x83DC;&#x5355;&#x5217;&#x8868;&#xFF0C;&#x94FE;&#x63A5;&#x7684;&#x540D;&#x79F0;&#x7528;&#x4F5C;&#x7AE0;&#x8282;&#x7684;&#x540D;&#x79F0;&#xFF0C;&#x76EE;&#x6807;&#x662F;&#x8BE5;&#x7AE0;&#x8282;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#x3002;</p>
+<p>&#x901A;&#x8FC7;&#x5411;&#x7236;&#x7AE0;&#x8282;&#x6DFB;&#x52A0;&#x5D4C;&#x5957;&#x5217;&#x8868;&#x6765;&#x5B9A;&#x4E49;&#x5B50;&#x7AE0;&#x8282;&#x3002;</p>
+<pre><code class="lang-asciidoc">=&#x83DC;&#x5355;
+
+<span class="hljs-bullet">. </span>link:chapter-1/README.adoc[Chapter 1]
+<span class="hljs-bullet">.. </span>link:chapter-1/ARTICLE1.adoc[Article 1]
+<span class="hljs-bullet">.. </span>link:chapter-1/ARTICLE2.adoc[Article 2]
+<span class="hljs-bullet">... </span>link:chapter-1/ARTICLE-1-2-1.adoc[Article 1.2.1]
+<span class="hljs-bullet">. </span>link:chapter-2/README.adoc[Chapter 2]
+<span class="hljs-bullet">. </span>link:chapter-3/README.adoc[Chapter 3]
+<span class="hljs-bullet">. </span>link:chapter-4/README.adoc[Chapter 4]
+<span class="hljs-bullet">.. </span>Unfinished article
+<span class="hljs-bullet">. </span>Unfinished Chapter
+</code></pre>
+<h3 id="langsadoc">LANGS.adoc</h3>
+<p>&#x5BF9;<a href="../languages.html">&#x591A;&#x8BED;&#x8A00;</a>&#x4E66;&#x7C4D;&#xFF0C;&#x6B64;&#x6587;&#x4EF6;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x4E0D;&#x540C;&#x7684;&#x652F;&#x6301;&#x8BED;&#x8A00;&#x3002;</p>
+<p>&#x6B64;&#x6587;&#x4EF6;&#x9075;&#x5FAA;&#x4E0E;SUMMARY.adoc&#x76F8;&#x540C;&#x7684;&#x8BED;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-asciidoc"><span class="hljs-section">= Languages</span>
+
+<span class="hljs-bullet">. </span>link:en/[English]
+<span class="hljs-bullet">. </span>link:fr/[French]
+</code></pre>
+<h3 id="glossaryadoc">GLOSSARY.adoc</h3>
+<p>&#x6B64;&#x6587;&#x4EF6;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x672F;&#x8BED;&#x6216;&#x8005;&#x8BCD;&#x6C47;&#x8868;&#x3002; <a href="../lexicon.html">&#x89C1;&#x8BCD;&#x6C47;&#x8868;&#x90E8;&#x5206;</a>&#x3002;</p>
+<pre><code class="lang-asciidoc"><span class="hljs-section">= Glossary</span>
+
+<span class="hljs-section">== Magic</span>
+
+Sufficiently advanced technology, beyond the understanding of the
+observer producing a sense of wonder.
+
+<span class="hljs-section">== PHP</span>
+
+A popular web programming language, used by many large websites such
+as Facebook. Rasmus Lerdorf originally created PHP in 1994 to power
+his personal homepage (PHP originally stood for &quot;Personal Home Page&quot;
+but now stands for &quot;PHP: Hypertext Preprocessor&quot;).
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="markdown.html" class="navigation navigation-prev " aria-label="Previous page: Markdown语法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ebook.html" class="navigation navigation-next " aria-label="Next page: 生成电子书和PDF">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"AsciiDoc语法","level":"2.7","depth":1,"next":{"title":"生成电子书和PDF","level":"2.8","depth":1,"path":"ebook.md","ref":"ebook.md","articles":[]},"previous":{"title":"Markdown语法","level":"2.6","depth":1,"path":"syntax/markdown.md","ref":"syntax/markdown.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"syntax/asciidoc.md","mtime":"2017-03-12T07:08:21.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-17T12:22:28.617Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
