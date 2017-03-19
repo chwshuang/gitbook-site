@@ -2,12 +2,6 @@
 
 非常感谢你参与Gitbook的贡献！
 
-- [发送反馈](#send-feedback)
-- [错误报告](#reporting-bugs)
-- [提问](#asking-questions)
-- [提交请求](#submitting-pull-requests)
-- [运行测试](#running-tests)
-
 ## 发送反馈
 
 如果您在使用GitBook工作的时候，有一些使用上的问题，

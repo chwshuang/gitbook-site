@@ -54,7 +54,7 @@
     * [导航](./api/navigation.md)
 
 ---
-
+* [参与贡献](contributing.md)
 * [常见问题](faq.md)
 * [示例](examples.md)
 * [发行说明](https://github.com/GitbookIO/gitbook/blob/master/CHANGES.md)
