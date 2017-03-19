@@ -11,6 +11,7 @@ GitBook是一款文档编辑工具。它的功能类似金山WPS中的Word或者
 
 **分布式、多人协同的全新书写方式！**  
 
+
 在GitBook中，你可以使用Markdown或者AsciiDoc语法，加上几个命令就能创建一本漂亮的图书或者文档。这种便利就像用苹果手机上网，想要什么，一点即来！
 
 GitBook支持GitHub或者git来管理文章的改动和版本。你可以参考这个例子：[ReduxJS documentation](http://redux.js.org/) Or [WebMagic Java爬虫文档](http://webmagic.io/docs/zh/)。
@@ -21,6 +22,9 @@ GitBook支持GitHub或者git来管理文章的改动和版本。你可以参考�
 
 完整的文档在[toolchain.gitbook.com](http://toolchain.gitbook.com/)上.
 
+### 网站地址
+浏览中文文档请登录[gitbook.hushuang.me](https://gitbook.hushuang.me/)
+浏览英文文档请登录[https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
 
 ### 帮助和支持
 
